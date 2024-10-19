@@ -48,6 +48,7 @@ Leichte und einfache Sprache verbessern die Verständlichkeit von Texten. Mensch
 | **Einfache Sprache**   | Klarer, einfacher Aufbau. Fachbegriffe werden vermieden oder erklärt.                                                                                            | "Es ist essenziell, dass wir in unserem Projektteam eine interdisziplinäre Herangehensweise an den Tag legen."      | "Es ist wichtig, dass das Team aus Fachleuten verschiedener Bereiche gut zusammenarbeitet."| "Es ist wichtig, dass das Team aus Fachleuten gut zusammenarbeitet."                    |
 | **Leichte Sprache**    | Sehr kurze Sätze, kein Fachvokabular. Wird häufig auch durch Piktogramme oder Bilder unterstützt. Nur wesentliche Informationen.                                 | "Die strategische Ausrichtung des Unternehmens wird durch eine Vielzahl von Faktoren beeinflusst."                 | "Es gibt viele Gründe, die die Strategie des Unternehmens beeinflussen."                 | "Es gibt viele Gründe, die die Planung der Firma beeinflussen."                         |
 
+```mermaid
 graph TD
     A[Beginne Inhaltserstellung] --> B{Verwendung vorgefertigter Inhaltsblöcke?}
     B -->|Ja| C[Folge integrierten Barrierefreiheitsrichtlinien]
@@ -85,3 +86,4 @@ graph TD
     style U fill:#98FB98,stroke:#333,stroke-width:2px
     style V fill:#FFA07A,stroke:#333,stroke-width:2px
     style W fill:#ADD8E6,stroke:#333,stroke-width:2px
+```
