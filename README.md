@@ -1,15 +1,5 @@
 # **REDAXO Barrierefreiheits-Cheatsheet für Redakteur:innen**
 
-## Inhaltsverzeichnis
-
-1. [Kurz und knapp](#kurz-und-knapp)
-2. [Zusätzliche Hinweise zur Barrierefreiheit](#zusätzliche-hinweise-zur-barrierefreiheit)
-   1. [Barrierefreiheit ist nicht nur für sehbehinderte Menschen wichtig](#barrierefreiheit-ist-nicht-nur-für-sehbehinderte-menschen-wichtig)
-   2. [Leichte und einfache Sprache](#leichte-und-einfache-sprache)
-
-3. Möglicher Ablauf
-   - [Flussdiagramm: Barrierefreiheit-Arbeitsablauf](#flussdiagramm-barrierefreiheit-arbeitsablauf)
-
 ## Kurz und knapp
 ---
 
