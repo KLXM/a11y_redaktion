@@ -1,7 +1,3 @@
-Hier ist das vollständige **REDAXO Barrierefreiheits-Cheatsheet für Redakteur:innen**:
-
----
-
 # **REDAXO Barrierefreiheits-Cheatsheet für Redakteur:innen**
 
 ---
