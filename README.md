@@ -48,3 +48,40 @@ Leichte und einfache Sprache verbessern die Verständlichkeit von Texten. Mensch
 | **Einfache Sprache**   | Klarer, einfacher Aufbau. Fachbegriffe werden vermieden oder erklärt.                                                                                            | "Es ist essenziell, dass wir in unserem Projektteam eine interdisziplinäre Herangehensweise an den Tag legen."      | "Es ist wichtig, dass das Team aus Fachleuten verschiedener Bereiche gut zusammenarbeitet."| "Es ist wichtig, dass das Team aus Fachleuten gut zusammenarbeitet."                    |
 | **Leichte Sprache**    | Sehr kurze Sätze, kein Fachvokabular. Wird häufig auch durch Piktogramme oder Bilder unterstützt. Nur wesentliche Informationen.                                 | "Die strategische Ausrichtung des Unternehmens wird durch eine Vielzahl von Faktoren beeinflusst."                 | "Es gibt viele Gründe, die die Strategie des Unternehmens beeinflussen."                 | "Es gibt viele Gründe, die die Planung der Firma beeinflussen."                         |
 
+graph TD
+    A[Beginne Inhaltserstellung] --> B{Verwendung vorgefertigter Inhaltsblöcke?}
+    B -->|Ja| C[Folge integrierten Barrierefreiheitsrichtlinien]
+    B -->|Nein| D[Erstelle benutzerdefinierten Inhalt]
+    C --> E{Bilder hinzufügen?}
+    D --> E
+    E -->|Ja| F[Füge Alt-Text im Medienpool hinzu]
+    E -->|Nein| G{Links hinzufügen?}
+    F --> G
+    G -->|Ja| H[Verwende beschreibenden Linktext]
+    G -->|Nein| I{Video hinzufügen?}
+    H --> I
+    I -->|Ja| J[Füge Untertitel oder Transkripte hinzu]
+    I -->|Nein| K[Prüfe Farbkontrast]
+    J --> K
+    K --> L[Teste Tastaturnavigation]
+    L --> M[Verwende for_sa11y-Prüfer]
+    M --> N{Probleme gefunden?}
+    N -->|Ja| O[Behebe Probleme]
+    N -->|Nein| P{Erstellung eines PDFs notwendig?}
+    O --> M
+    P -->|Ja| Q[Erstelle barrierefreies PDF]
+    P -->|Nein| R[Veröffentliche Inhalt]
+    Q --> S{PDF barrierefrei?}
+    S -->|Ja| R
+    S -->|Nein| T{Alternativen möglich?}
+    T -->|Ja| U[Biete alternative Formate an]
+    T -->|Nein| V[Dokumentiere Einschränkungen]
+    U --> R
+    V --> W[Plane zukünftige Verbesserungen]
+    W --> R
+    R --> X[Ende]
+
+    style T fill:#FFA500,stroke:#333,stroke-width:2px
+    style U fill:#98FB98,stroke:#333,stroke-width:2px
+    style V fill:#FFA07A,stroke:#333,stroke-width:2px
+    style W fill:#ADD8E6,stroke:#333,stroke-width:2px
