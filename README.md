@@ -3,27 +3,11 @@
 ## Inhaltsverzeichnis
 
 1. [Kurz und knapp](#kurz-und-knapp)
-   1. [Struktur und Semantik](#struktur-und-semantik)
-   2. [Bilder und Alternativtexte](#bilder-und-alternativtexte)
-   3. [Links und Navigation](#links-und-navigation)
-   4. [Farben und Kontraste](#farben-und-kontraste)
-   5. [Medieninhalte](#medieninhalte)
-   6. [Tastaturzugänglichkeit](#tastaturzugänglichkeit)
-   7. [Testen und Überprüfen](#testen-und-überprüfen)
-   8. [Barrierefreie PDFs](#barrierefreie-pdfs)
-      - [Microsoft Word (Windows/macOS)](#microsoft-word-windowsmacos)
-      - [LibreOffice (Windows/macOS/Linux)](#libreoffice-windowsmacoslinux)
-      - [PDFs auf Barrierefreiheit prüfen](#pdfs-auf-barrierefreiheit-prüfen)
-      - [PDFs in REDAXO einbinden](#pdfs-in-redaxo-einbinden)
-
 2. [Zusätzliche Hinweise zur Barrierefreiheit](#zusätzliche-hinweise-zur-barrierefreiheit)
    1. [Barrierefreiheit ist nicht nur für sehbehinderte Menschen wichtig](#barrierefreiheit-ist-nicht-nur-für-sehbehinderte-menschen-wichtig)
    2. [Leichte und einfache Sprache](#leichte-und-einfache-sprache)
-      - [Komplexer Text](#komplexer-text)
-      - [Einfache Sprache](#einfache-sprache)
-      - [Leichte Sprache](#leichte-sprache)
 
-3. [Möglicher Ablauf](#möglicher-ablauf)
+3. Möglicher Ablauf
    - [Flussdiagramm: Barrierefreiheit-Arbeitsablauf](#flussdiagramm-barrierefreiheit-arbeitsablauf)
 
 ## Kurz und knapp
